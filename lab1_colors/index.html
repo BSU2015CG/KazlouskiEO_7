@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="" href="./styles/reset.css">
+        <link rel="stylesheet" href="./styles/style.css">
+        <script type="text/javascript" src="./app/converter.js"></script>
+        <script type="text/javascript" src="./app/main.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="container">
+                <ul id="HSV">
+                    <li class="section-item">
+                        <label class="label-item">Hue (H) [0, 360]:</label>
+                        <input class="numerical-input" type="number" min=0 max=360 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=360 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Saturation (S) [0, 100]:</label>
+                        <input class="numerical-input" type="number" min=0 max=100 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=100 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Value (V) [0,100]:</label>
+                        <input class="numerical-input" type="number" min=0 max=100 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=100 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                </ul>
+                <ul id="LUV">
+                     <li class="section-item">
+                        <label class="label-item">Lightness (L) [0, 100]:</label>
+                        <input class="numerical-input" type="number" min=0 max=100 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=100 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Green to red (U) [-100, 100]:</label>
+                        <input class="numerical-input" type="number" min=-100 max=100 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=-100 max=100 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Blue to purple (V) [-100, 100]:</label>
+                        <input class="numerical-input" type="number" min=-100 max=100 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=-100 max=100 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                </ul>
+                <ul id="CMYK">
+                    <li class="section-item">
+                        <label class="label-item">Cyan color (C) [0, 1]:</label>
+                        <input class="numerical-input" type="number" min=0 max=1 step=0.01 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=1 step=0.01 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Magenta color (M) [0, 1]:</label>
+                        <input class="numerical-input" type="number" min=0 max=1 step=0.01 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=1 step=0.01 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Yellow color (Y) [0, 1]:</label>
+                        <input class="numerical-input" type="number" min=0 max=1 step=0.01 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=1 step=0.01 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Black key color (K) [0, 1]:</label>
+                        <input class="numerical-input" type="number" min=0 max=1 step=0.01 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=1 step=0.01 oninput="APP.changeRange(this, value)">
+                    </li>
+                </ul>
+                <ul id="RGB">
+                    <li class="section-item">
+                        <label class="label-item">Red color (R) [0, 255]</label>
+                        <input class="numerical-input" type="number" min=0 max=255 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=255 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Green color (G) [0, 255]:</label>
+                        <input class="numerical-input" type="number" min=0 max=255 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=255 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                    <li class="section-item">
+                        <label class="label-item">Blue color (B) [0, 255]:</label>
+                        <input class="numerical-input" type="number" min=0 max=255 step=1 onchange="APP.changeInput(this, value)">
+                        <input type="range" min=0 max=255 step=1 oninput="APP.changeRange(this, value)">
+                    </li>
+                </ul>
+            </div>
+            <section class="bottom-row">
+                <div class="displayer" id="display-block"></div>
+                <button class="reset-button">Reset</button>
+                <input class="palette" id="paletteInput" type="color" oninput="APP.changePalette(value)" value>
+                <label class="warning"></label>
+            </section>
+        </div>
+    </body>
+</html>

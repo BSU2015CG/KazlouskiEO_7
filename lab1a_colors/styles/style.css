@@ -1,0 +1,39 @@
+* {
+    color: #eee;
+}
+
+body {
+    background-color: #222;
+}
+
+#fileInput {
+    padding: 40px;
+    display: block;
+}
+
+.info {
+    vertical-align: top;
+    padding: 40px;
+}
+
+label {
+    display: inline-block;
+    padding: 20px;
+}
+
+/* add first label width */
+
+.info, .result {
+    display: inline-block;
+}
+
+.result {
+    margin: 40px;
+    width: 1100px;
+}
+
+.result div {
+    width: 450px;
+    height: 450px;
+    display: inline-block;
+}

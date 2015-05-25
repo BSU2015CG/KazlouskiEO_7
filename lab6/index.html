@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Letter</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="node_modules/three/three.min.js"></script>
+        <script type="text/javascript" src="node_modules/three/projector.js"></script>
+        <script type="text/javascript" src="node_modules/three/canvas-renderer.js"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </head>
+    <body>
+        <div class="info">
+            <input id="rangeInput" type="range" value>
+            <label>Position</label>
+            <input id="tX" type="number" placeholder="Tx">
+            <input id="tY" type="number" placeholder="Ty">
+            <input id="tZ" type="number" placeholder="Tz">
+            <button id="positionBtn">Change position</button>
+
+            <label>Rotation</label>
+            <select id="rotation">
+              <option value="X">X</option>
+              <option value="Y">Y</option>
+              <option value="X">X</option>
+            </select>
+            <input id="degree" type="number" placeholder="degree">
+            <button id="rotateBtn">Rotate</button>
+        </div>
+        <style type="text/css">
+            body {
+                margin: 0;
+            }
+            .info {
+                position: absolute;
+                left: 20px;
+                bottom: 20px;
+
+                width: 200px;
+            }
+            label {
+                display: block;
+                color: #fff;
+            }
+            input, button, select {
+                padding: 5px;
+                margin: 10px;
+                display: inline-block;
+            }
+            button {
+                cursor: pointer;
+            }
+        </style>
+    </body>
+</html>

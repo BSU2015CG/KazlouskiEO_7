@@ -1,0 +1,123 @@
+canvas{
+    position: relative;
+    border: 2px solid #202020;
+    margin-left: 0%;
+    margin: 10px;
+
+    background-color: #fff;
+}
+
+#mainContent {
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #637687;
+}
+
+ul {
+    list-style:none;
+    margin: 10px;
+    padding: 0;
+}
+
+label {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+
+    color: #202020;
+
+    -webkit-transition: all 600ms;
+}
+
+.mainInput>label {
+    padding-left: 10px;
+}
+
+ul label {
+    padding: 10px;
+    width: 200px;
+}
+
+ul label:hover {
+    color: #000;
+    background: #6600ff;
+}
+
+input.radio:checked ~ label {
+    color: #000;
+    background: #0099ff;
+}
+
+.radio {
+    opacity: 0;
+    width: 10px;
+    height: 10px;
+}
+
+.radioLabel {
+    margin-left: -10px;
+}
+
+#resetBtn {
+    padding: 20px;
+    background: #0099ff;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+    border: none;
+
+    margin-left: 10px;
+
+    -webkit-transition: all 600ms;
+}
+
+#resetBtn:hover {
+    background: #6600ff;
+}
+
+#footer label {
+    display: block;
+}
+
+#footer #time {
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+}
+
+/*RANGE*/
+input[type=range]{
+    -webkit-appearance: none;
+    width: 500px;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 500px;
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: #6600ff;
+    margin-top: -.5em;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+}
+
+#range {
+    padding-left: 10px
+}
