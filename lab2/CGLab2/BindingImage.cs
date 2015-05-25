@@ -122,8 +122,9 @@ namespace ImageInfoViewer
             PcxImage.Read(WordArray, 0, 2);
             YEnd = BitConverter.ToInt16(WordArray, 0);
 
-            Width = XEnd - XStart;
             Height = YEnd - YStart;
+            Width = XEnd - XStart;
+            if (Format.Equals("Pcx")) { Width++; Height++; }
         }
     }
 }

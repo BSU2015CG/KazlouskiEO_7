@@ -50,3 +50,16 @@ D:\_university\CG\CGLab2\CGLab2\obj\Debug\CGLab2.Properties.Resources.resources
 D:\_university\CG\CGLab2\CGLab2\obj\Debug\CGLab2.csproj.GenerateResource.Cache
 D:\_university\CG\CGLab2\CGLab2\bin\Debug\CGLab2.exe
 D:\_university\CG\CGLab2\CGLab2\bin\Debug\CGLab2.pdb
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\bin\Debug\CGLab2.exe.config
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\CGLab2.exe
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\CGLab2.pdb
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\bin\Debug\CGLab2.exe
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\bin\Debug\CGLab2.pdb
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\CGLab2.csprojResolveAssemblyReference.cache
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\MainWindow.baml
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\MainWindow.g.cs
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\App.g.cs
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\CGLab2_MarkupCompile.cache
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\CGLab2.g.resources
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\CGLab2.Properties.Resources.resources
+D:\_university\CG\gitrep\KazlouskiEO_7\lab2\CGLab2\obj\Debug\CGLab2.csproj.GenerateResource.Cache
